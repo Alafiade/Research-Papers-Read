@@ -59,7 +59,7 @@ L-Relu has basic properties that makes it necessary to  become an activation fun
 3. Monotonicity :- As the input increases the output increases, lets say we have a feature map [0.2 -2.0 0.4] the negative means those pattens might be missing and we know that L-Relu  converts our negative input to a small number p.s [0.2 -0.3 0.4] is being inputed into the L-Relu layer and its supposed to have an output right ? so we get something like [0.2 -0.2 0.4] which would be the output. So if you make comparisons -0.2 is bigger than -2.0 it is a small number but it still increased as it passed into the L-Relu.
 4. Infinite:- The L-Relu is inifinite becausr the output grows infinitely for large positive inputs making it good for deep networks.
 
-The paper also used a convolution kernel of 3x3. In additio it adopts a dropout technology of 0.7 which helps combats overfitiing.
+The paper also uses a 3x3 convolutional kernel. In addition it adopts a dropout rate of 0.7 which helps combats overfitting.
 
  
 
