@@ -1,10 +1,11 @@
-This Repo contains some  of my insights on the LeNet 5 paper
+## This Repo contains some  of my insights on the LeNet 5 paper##
+
 The Novel Deep LeNet-5 Convolutional Neural Network Model for Image Recognition is a model designed
 to  solve the generalization problem of Image Recognition.
 
 Image recognition technology extracts features from our data and passes it to a classifier for classification.
 They were three Image recognition methods the paper mentioned which are:
-- K nearest Neighbor\
+- K nearest Neighbor
 - Basic Neural Network
 - Support vector machine.
 All these methods has their shortcomings when trying to solve the generalization problem of Image Recognition.
