@@ -41,7 +41,15 @@ The Fully Connected layers which are similar to MLP (Multi Layer Preceptron) mea
 The two first fully connected layers consist of 1024 neurons and the second 67 neurons and each neurons computes a dot product between its
 input features and weights and the output goes through a sigmoid function which gives the result classification.
 
-## Take aways  :- What i understand so far is that the basic LeNet 5 architecture is slow and to fix it the activation function L-RELU was introduced.  
+Take aways  :- What i understand so far is that the basic LeNet 5 architecture is slow and to fix it the activation function L-RELU was introduced.  
+
+## Activation Function Optimization ##
+The reason LeNet 5 activation model has a slow convergence speed is because of the sigmoid activation function.
+The sigmoid function basically computes a value between 0 and 1 so if the value is too negative or too positive then the gradients in 
+the gradients descent diminish another term for this is called vanishing gradients.   This affects our model because the Gradient descent
+is an optimization technique that helps the model calculate the loss value from the actual label vs the predicted label.
+
+So in backpropagation the model's final layer takes the loss of the model and makes a recursion , so the gradient goes back to the layer of the network and through the activatin layer (sigmoid) and as said earlier if the values are too high or too low it produces a low gradient value which causes the model not to converge. To fix this the L-ReLU activation function was introduced  which is a modified version of the ReLU activation  function.
 
  
 
