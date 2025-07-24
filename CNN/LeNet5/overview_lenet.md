@@ -49,7 +49,7 @@ The sigmoid function basically computes a value between 0 and 1 so if the value 
 the gradients descent diminish another term for this is called vanishing gradients.   This affects our model because the Gradient descent
 is an optimization technique that helps the model calculate the loss value from the actual label vs the predicted label.
 
-So in backpropagation the model's final layer takes the loss of the model and makes a recursion , so the gradient goes back to the layer of the network and through the activatin layer (sigmoid) and as said earlier if the values are too high or too low it produces a low gradient value which causes the model not to converge. To fix this the L-ReLU activation function was introduced  which is a modified version of the ReLU activation  function.
+So in backpropagation the model's final layer takes the loss of the model and the signal is propagated backward, so the gradient goes back to the layer of the network and through the activatin layer (sigmoid) and as said earlier if the values are too high or too low it produces a low gradient value which causes the model not to converge. To fix this the L-ReLU activation function was introduced  which is a modified version of the ReLU activation  function.
 
  
 
