@@ -29,10 +29,21 @@ The hidden layer is responsible for extraction and classification of object feat
 The output layer  outputs an integer representing the category.
 
 The hidden layer is generally composed of Convolutions , Subsampling and fully connection layer.
+
 This paper architecture contains two conv layers and they have a 32 5x5 conv kernels and a 645x5 convolutional kernels
 respectively. So basically once the image is passed through the model the first conv layer which contais 32 5x5 kernel 
-extracts features and breaks it dow into 32 images further along the line this images meets the seconf conv kernel which
-extracts a deeper and more meaningful information from the model.
+extracts features and breaks it down into 32 images further along the line this images meets the second conv kernel which is
+64 5x5 and extracts a deeper and more meaningful information from the model.
+The model has two pooling layers also called sub-sampling layers which can help reduce the size of our images  for faster training and 
+eliminate repeated extracted features.
+
+The Fully Connected layers which are similar to MLP (Multi Layer Preceptron) meaning they are connected from one previous layer to another.
+The two first fully connected layers consist of 1024 neurons and the second 67 neurons and each neurons computes a dot product between its
+input features and weights and the output goes through a sigmoid function which gives the result classification.
+
+## Take aways ## :- What i understand so far is that the basic LeNet 5 architecture is slow and to fix it the activation function L-RELU was introduced.
+
+ 
 
 
  
