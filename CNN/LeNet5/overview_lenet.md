@@ -1,4 +1,4 @@
-## This Repo contains some  of my insights on the LeNet 5 paper##
+## This Repo contains some  of my insights on the LeNet 5 paper ##
 
 The Novel Deep LeNet-5 Convolutional Neural Network Model for Image Recognition is a model designed
 to  solve the generalization problem of Image Recognition.
@@ -19,8 +19,10 @@ fully connection layer and output layer.
   speed.
 - Fully connection layer:- Thesee takes the reduced resolution images to lead to a prediction.
 
-STRUCTURE OF LENET 5
+## STRUCTURE OF LENET 5
 The LeNet5 CNN consists of the input layer , hidden layer and output layer.
+
+
 The input layer is a 32x32 single channel image. The hidden layer is responsible for the extraction and classification of object features(features of image).
 The hidden layer is responsible for extraction and classification of object features.
 The output layer  outputs an integer representing the category.
