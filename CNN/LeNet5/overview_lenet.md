@@ -41,7 +41,7 @@ The Fully Connected layers which are similar to MLP (Multi Layer Preceptron) mea
 The two first fully connected layers consist of 1024 neurons and the second 67 neurons and each neurons computes a dot product between its
 input features and weights and the output goes through a sigmoid function which gives the result classification.
 
-# Take aways  :- What i understand so far is that the basic LeNet 5 architecture is slow and to fix it the activation function L-RELU was introduced.
+## Take aways  :- What i understand so far is that the basic LeNet 5 architecture is slow and to fix it the activation function L-RELU was introduced.  
 
  
 
