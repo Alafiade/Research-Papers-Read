@@ -8,6 +8,7 @@ They were three Image recognition methods the paper mentioned which are:
 - K nearest Neighbor
 - Basic Neural Network
 - Support vector machine.
+
 All these methods has their shortcomings when trying to solve the generalization problem of Image Recognition.
 So to combat this shortcomings the Deep LeNet model was proposed .
 The DeeP LeNet is a type of Convolutional Neural Network
