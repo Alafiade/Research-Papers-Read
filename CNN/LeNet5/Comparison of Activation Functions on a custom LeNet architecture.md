@@ -18,8 +18,8 @@ The LeNet-5 architecture was used in this experiment  and had minimal changes ex
 Initially these models were tested on the CIFAR10 dataset but peformed badly due to LeNet5 being unable to handle complex datasets. Therefore these  models were trained on the  MNIST dataset.
 
 ## Results
-Activaction Function                Final Test logs               Accuracy(%)
+Activaction Function                           Final Test logs                                                          Accuracy(%)
 
-Leaky ReLU                           0.045576                         99.0
-ReLU                                 0.039511                         98.8
-Tanh                                 0.066170                         98.1
+Leaky ReLU                                      0.045576                                                                 99.0
+ReLU                                            0.039511                                                                 98.8
+Tanh                                            0.066170                                                                 98.1
