@@ -1,8 +1,8 @@
-## Evaluating the Impact of Activation Functions on LeNet-5 Performance
+# Evaluating the Impact of Activation Functions on LeNet-5 Performance
 
 This project compares the effect of different Activation Functions on the performance  of the LeNet 5 architecture in image classification tasks.
 
-# Explanation of Activation Functions
+## Explanation of Activation Functions
 
 Activation Function introduces non-linearity to the network to help the network  predict complex patterns in an an image.
 The activation function used to perform this evaluation are Tanh, ReLU and Leaky Relu 
@@ -19,6 +19,7 @@ Initially these models were tested on the CIFAR10 dataset but peformed badly due
 
 ## Results
 Activaction Function                Final Test logs               Accuracy(%)
+
 Leaky ReLU                           0.045576                         99.0
 ReLU                                 0.039511                         98.8
 Tanh                                 0.066170                         98.1
